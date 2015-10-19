@@ -1,0 +1,5 @@
+L = input("Please enter the Amount of loan: ")
+i = input("Please enter the interest rate: ")
+n = input("Please enter the number of payments: ")
+M = (float(L)*(float(i)*(1+float(i))*float(n)) / (((1+float(i))*float(n)-1)))
+print("The monthly payment is: {0:.2f}".format(M))
